@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+  servlet:
+    # 配置文件上传大小限制
+    multipart:
+      maxFileSize: 500MB
+      maxRequestSize: 500MB
+      file-size-threshold: 2KB

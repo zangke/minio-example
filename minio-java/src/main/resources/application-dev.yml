@@ -1,0 +1,13 @@
+minio:
+  endpoint: http://116.62.67.88:9000
+  accessKey: minioadmin
+  secretKey: minioadmin
+  secure: false
+  bucketName: "mybucket"
+  configDir: "/home/minio/data/"
+
+application:
+  swagger:
+    title: MinIo Java Client API
+    description: MinIo example.
+    version: 0.0.1
